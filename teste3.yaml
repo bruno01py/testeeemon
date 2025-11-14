@@ -1,0 +1,15 @@
+cellIdPreamble: "cell-"
+
+cells:
+  cell-pe-6720-vv-p01:
+    dataRef: "pe-6720-vv-p01"
+    fillColor:
+      thresholds:
+        - { level: 2, color: "red" }
+        - { level: 1, color: "green" }
+  cell-pe-6720-vv-p02:
+    dataRef: "pe-6720-vv-p02"
+    fillColor:
+      thresholds:
+        - { level: 2, color: "red" }
+        - { level: 1, color: "green" }
