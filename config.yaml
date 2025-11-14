@@ -1,0 +1,29 @@
+# Caminho ou URL do seu SVG (ajusta isso aqui!)
+svg: "https://raw.githubusercontent.com/bruno01py/testeeemon/356fe76f39900a88bc1397a6ff54dfb15d4060fe/diagramacpd.drawio.svg"
+
+# Tudo que começar com "cell-" no SVG o Flow vai enxergar
+cellIdPreamble: "cell-"
+
+# (Opcional, mas útil) defaults pra não repetir em cada porta
+defaults:
+  fillColor:
+    thresholds:
+      - { level: 0, color: "red" }    # ex.: 0 = down
+      - { level: 1, color: "green" }  # ex.: 1 = up
+
+cells:
+  # PORTA 1 DO PE-6720
+  pe-6720-vv-p01:
+    dataRef: "pe-6720-vv-p01"   # mesmo nome do setAlias() na query
+
+  # PORTA 2 DO PE-6720
+  pe-6720-vv-p02:
+    dataRef: "pe-6720-vv-p02"
+
+  # PORTA 1 DO NE20
+  ne20-p01:
+    dataRef: "ne20-p01"
+
+  # PORTA 1 DA OLT
+  olt-sede-p01:
+    dataRef: "olt-sede-p01"
