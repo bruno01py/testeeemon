@@ -1,0 +1,9 @@
+cellIdPreamble: "cell-"
+
+cells:
+  pe-6720-vv-p01:
+    dataRef: "cell-cabo-6720-ne20-01"
+    fillColor:
+      thresholds:
+        - { level: 2, color: "red" }
+        - { level: 1, color: "green" }
