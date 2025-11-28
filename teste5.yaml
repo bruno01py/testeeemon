@@ -1,0 +1,167 @@
+cellIdPreamble: "cell-"
+
+cells:
+  cell-pe-6720-vv-p01:
+    dataRef: "pe-6720-vv-p01"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-p02:
+    dataRef: "pe-6720-vv-p02"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-p18:
+    dataRef: "pe-6720-vv-p18"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-p20:
+    dataRef: "pe-6720-vv-p20"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-p21:
+    dataRef: "pe-6720-vv-p21"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-p23:
+    dataRef: "pe-6720-vv-p23"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-100g-p06:
+    dataRef: "pe-6720-vv-100g-p06"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-pe-6720-vv-100g-p05:
+    dataRef: "pe-6720-vv-100g-p05"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne20-p01:
+    dataRef: "ne20-p01"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne20-p02:
+    dataRef: "ne20-p02"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne20-p03:
+    dataRef: "ne20-p03"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne20-p04:
+    dataRef: "ne20-p04"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p04:
+    dataRef: "ne40-p04"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p05:
+    dataRef: "ne40-p05"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p06:
+    dataRef: "ne40-p06"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p07:
+    dataRef: "ne40-p07"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p18:
+    dataRef: "ne40-p18"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-ne40-p09:
+    dataRef: "ne40-p09"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-cisco-p01:
+    dataRef: "cisco-p01"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-olt-sede-p01:
+    dataRef: "olt-sede-p01"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+  cell-olt-sede-p02:
+    dataRef: "olt-sede-p02"
+    fillColor:
+      thresholds:
+        - { level: 1, color: "green" }
+        - { level: 2, color: "red" }
+
+cell-cabo-6720-ne20-01:
+  dataRef: "cabo-6720-ne20-01"
+
+  fillColor:
+    thresholds:
+      - { color: "green", level: 0 }   # ok
+      - { color: "red",   level: 2 }   # quando valor >= 2 fica vermelho
+
+  flowAnimation:
+    # até 1 = animação desligada
+    thresholdOffValue: 1.5
+
+    # a partir de 2 liga a animação (velocidade fixa)
+    thresholdLwrValue: 2
+    thresholdLwrDurationSecs: 0.5
+    thresholdUprValue: 2
+    thresholdUprDurationSecs: 0.5
